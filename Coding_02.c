@@ -12,7 +12,7 @@ int main() {
     printf("บรรทัดที่ 2: k = i + j = %d + %d = %d\n", i, j, k);
 
     i = i + (k * j);
-    printf("บรรทัดที่ 3: i = i + (k * j) = %d + (%d * %d) = %d\n", i - (k * j), k, j, i);
+    printf("บรรทัดที่ 3: i = i + (k * j) = %d + (%d * %d) = %d\n", i + (k * j), k, j, i);
 
     j = i / 2;
     printf("บรรทัดที่ 4: j = i / 2 = %d / 2 = %d\n", i, j);
@@ -50,4 +50,5 @@ int main() {
     printf("บรรทัดที่ 7: ผลลัพธ์สุดท้าย → x = %.1f, y = %.1f, z = %.1f\n", x, y, z);
 
     return 0;
+
 }
